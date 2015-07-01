@@ -1,6 +1,7 @@
 class Course < ActiveRecord::Base
 
 	belongs_to :user
+	has_many :sections
 
 	validates :title, :presence => {:message => "Title can't be blank"}
 	validates :description, :presence => {:message => "Description can't be blank"}
