@@ -42,6 +42,8 @@ gem "figaro"
 gem "stripe"
 
 gem 'carrierwave-aws'
+
+gem 'ranked-model'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
